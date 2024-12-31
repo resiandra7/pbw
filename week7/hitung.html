@@ -1,0 +1,26 @@
+<!DOCTYPE html> 
+<html>
+    <head>
+        <title>Hitunganl</title>
+    </head>
+
+    <body>
+
+        <input type="text" id="angka1">
+        <input type="text" id="angka2">
+        <button id="plus">+</button>
+        <div id="hasil"></div>
+
+        <script>
+            document.getElementById('plus').onclick=function(){
+                let hasil = parseInt(document.getElementById('angka1').value)+
+                parseInt(document.getElementById('angka2').value)
+
+                document.getElementById('hasil').innerHTML = hasil
+            }
+        </script>
+
+
+    </body>
+
+    </html>
